@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+/*  General styling */
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 ;
+    font-size: 1.4em;
+    background-color: #16171b;
+}
+
+h1, h2{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.3rem;
+
+}
+
+
+p{
+    opacity: 0.7;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
+.header img{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.btn{
+    border-radius: 3px;
+    background-color: #376df9;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 8px 17px;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin-right: 65px;
+}
+
+
+.btn-primary{
+    background-color: #376df9;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #376df9;
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 13px 20px;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.flex > div, .flex > ul{
+    flex: 1;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+header{
+     background-image: url(./images/bg-hero-desktop.svg);
+     background-size: cover cover;
+     background-position: center center;
+     
+     padding: 40px 0;
+}
+
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -25px;
+    margin-left: 30px;
+}
+
+.headline{
+    margin-top: 130px;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+ul.st  {
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+    width: 1000px;
+  }
+
+
+.headline-1{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 140px;
+}
+
+
+.subtext{
+    text-align: center;
+    color: #9da3bb;
+    margin-top: -10px;
+}
+
+
+.center {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+  }
+
+  div.tiles-wrap  {
+    -webkit-box-pack: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -32px;
+  }
+
+
+  div.ng.reveal-from-right.is-revealed  {
+    box-sizing: content-box;
+    flex-basis: 360px;
+    max-width: 360px;
+    opacity: 1;
+    padding: 32px;
+    text-align: center;
+  }
+
+  div.ng.reveal-from-left.is-revealed  {
+    box-sizing: content-box;
+    flex-basis: 360px;
+    max-width: 360px;
+    opacity: 1;
+    padding: 32px;
+    transform: translate(0);
+    transition: opacity 1s cubic-bezier(.39,.575,.565,1) 0s,transform 1s cubic-bezier(.39,.575,.565,1) 0s,-webkit-transform 1s cubic-bezier(.39,.575,.565,1) 0s;
+    will-change: opacity,transform;
+    text-align: center;  }
+
+
+    .container-1{
+        padding: 0 20px;
+        margin: 0 auto;
+        width: 850px;
+        max-width: 100%;
+    }
+
+
+
+    .bold{
+
+    
+    box-sizing: border-box;
+    clear: both;
+    color: #f9faff;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.1px;
+    line-height: 34px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    }
